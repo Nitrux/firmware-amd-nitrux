@@ -1,0 +1,13 @@
+Source: amdgpu-firmware-extra
+Section: misc
+Priority: optional
+Maintainer: Uri Herrera <uri_herrera@nxos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://repo.radeon.com/amdgpu/
+
+
+Package: amdgpu-firmware-extra
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Extra firmware for AMDGPU
