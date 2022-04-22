@@ -1,6 +1,12 @@
+amdgpu-firmware-extra (0.0.3)  nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 21 Apr 2022 23:00:00 -0500
+
 amdgpu-firmware-extra (0.0.2)  nitrux; urgency=medium
 
-  * Updat package.
+  * Update package.
 
  -- Uri Herrera <uri_herrera@nxos.org>  Wed, 09 Mar 2022 15:48:00 -0500
 
