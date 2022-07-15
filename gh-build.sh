@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -xe
+
 ### Basic Packages
 apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
