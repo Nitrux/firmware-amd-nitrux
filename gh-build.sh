@@ -14,3 +14,5 @@ debuild -b -uc -us
 cd ../
 
 pwd; ls -l # here be the fucking deb
+
+mv *.deb 
