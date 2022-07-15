@@ -12,10 +12,4 @@ mv ./* source/ # Hack for debuild
 cd source
 debuild -b -uc -us
 
-pwd; ls -l
-cd ../
-pwd; ls -l
-cd ../
-pwd; ls -l
-
-find .. -maxdepth 1 -type f -not -path '*/\.*' | sed 's/^\.\///g' | sort
+find $(pwd) -maxdepth 2 -type f -not -path '*/\.*' | sed 's/^\.\///g' | sort
