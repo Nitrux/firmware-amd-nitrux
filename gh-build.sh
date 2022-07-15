@@ -11,5 +11,6 @@ mkdir source
 mv ./* source/ # Hack for debuild
 cd source
 debuild -b -uc -us
+cd ../../
 
-find $(pwd) -maxdepth 2 -type f -not -path '*/\.*' | sed 's/^\.\///g' | sort
+pwd; ls -l # here be the fucking deb
