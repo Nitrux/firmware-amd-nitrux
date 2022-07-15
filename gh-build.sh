@@ -1,10 +1,9 @@
 #!/bin/bash
 
-apt -qq update
-apt -qq -yy install equivs git --no-install-recommends
+### Basic Packages
+apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
 ### Install Dependencies
-apt -qq -yy install devscripts lintian --no-install-recommends
 mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb
@@ -12,3 +11,11 @@ mkdir source
 mv ./* source/ # Hack for debuild
 cd source
 debuild -b -uc -us
+
+pwd; ls -l
+cd ../
+pwd; ls -l
+cd ../
+pwd; ls -l
+
+find .. -maxdepth 1 -type f -not -path '*/\.*' | sed 's/^\.\///g' | sort
