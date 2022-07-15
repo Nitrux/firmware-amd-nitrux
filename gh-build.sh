@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 ### Basic Packages
 apt -qq -yy install equivs git devscripts lintian --no-install-recommends
@@ -11,8 +11,7 @@ mkdir source
 mv ./* source/ # Hack for debuild
 cd source
 debuild -b -uc -us
+
+### Here's the Deb
 cd ../
-
 pwd; ls -l # here be the fucking deb
-
-mv *.deb 
