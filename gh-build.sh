@@ -1,6 +1,6 @@
 #! /bin/bash
 
-set -xe
+set -x
 
 ### Basic Packages
 apt -qq -yy install equivs git devscripts lintian --no-install-recommends
@@ -9,11 +9,4 @@ apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb
-mkdir source
-mv ./* source/ # Hack for debuild
-cd source
 debuild -b -uc -us
-
-### Here's the Deb
-cd ../
-pwd; ls -l # here be the fucking deb
