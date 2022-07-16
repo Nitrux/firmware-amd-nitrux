@@ -10,3 +10,5 @@ mk-build-deps -i -t "apt-get --yes" -r
 
 ### Build Deb
 debuild -b -uc -us
+
+pwd; ls -l
