@@ -11,4 +11,6 @@ mk-build-deps -i -t "apt-get --yes" -r
 ### Build Deb
 debuild -b -uc -us
 
+mv ../*.iso . 
+
 pwd; ls -l
