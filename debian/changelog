@@ -1,3 +1,9 @@
+amdgpu-firmware-extra (0.0.7)  nitrux; urgency=medium
+
+  * Change dependency name.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 02 Dec 2022 20:57:00 -0500
+
 amdgpu-firmware-extra (0.0.6)  nitrux; urgency=medium
 
   * Update package.

@@ -9,6 +9,6 @@ Homepage: http://repo.radeon.com/amdgpu/
 
 Package: amdgpu-firmware-extra
 Architecture: amd64
-Depends: linux-firmware
+Depends: linux-firmware-nitrux
 Description: Extra firmware for AMDGPU.
  Package to add amdgpu-firmware-extra to the distribution.
