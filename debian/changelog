@@ -1,3 +1,9 @@
+amdgpu-firmware-extra (0.0.9)  nitrux; urgency=medium
+
+  * Blacklist modules that can cause problems with admgpu.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Sun, 16 Jun 2024 22:02:00 -0500
+
 amdgpu-firmware-extra (0.0.8)  nitrux; urgency=medium
 
   * Remove conflicting files, ffs.
