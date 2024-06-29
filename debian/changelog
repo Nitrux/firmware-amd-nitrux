@@ -1,3 +1,9 @@
+amdgpu-firmware-extra (0.1.0)  nitrux; urgency=medium
+
+  * Change dependency.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Fri, 28 Jun 2024 19:30:00 -0500
+
 amdgpu-firmware-extra (0.0.9)  nitrux; urgency=medium
 
   * Blacklist modules that can cause problems with admgpu.
