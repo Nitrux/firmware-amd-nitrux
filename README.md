@@ -1,4 +1,4 @@
-# AMDGPU Firmware
+# Firmware for AMD graphics cards
 
 Package to add newer firmware for amdgpu, radeon and r128 to the distribution.
 
