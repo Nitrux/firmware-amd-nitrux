@@ -1,4 +1,4 @@
-Source: amdgpu-firmware-extra
+Source: firmware-amd-nitrux
 Section: misc
 Priority: optional
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
@@ -7,8 +7,9 @@ Standards-Version: 3.9.6
 Homepage: http://repo.radeon.com/amdgpu/
 
 
-Package: amdgpu-firmware-extra
+Package: firmware-amd-nitrux
 Architecture: amd64
-Depends: libdrm-amdgpu1
+Replaces: firmware-amd-graphics
+Conflicts: firmware-amd-graphics
 Description: Extra firmware for AMDGPU.
- Package to add amdgpu-firmware-extra to the distribution.
+ This package includes newer firmware files for AMD graphics cards.
