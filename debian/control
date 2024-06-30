@@ -4,12 +4,11 @@ Priority: optional
 Maintainer: Uri Herrera <uri_herrera@nxos.org>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-Homepage: http://repo.radeon.com/amdgpu/
+Homepage: https://github.com/Nitrux/firmware-amd-nitrux
 
 
 Package: firmware-amd-nitrux
 Architecture: amd64
-Replaces: firmware-amd-graphics
 Conflicts: firmware-amd-graphics
 Description: Extra firmware for AMDGPU.
  This package includes newer firmware files for AMD graphics cards.
