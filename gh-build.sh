@@ -6,6 +6,9 @@ set -x
 apt -qq update
 apt -qq -yy install equivs git devscripts lintian --no-install-recommends
 
+### Remove .directory files from the source.
+find . -type f -name ".directory" -exec rm -f {} +
+
 ### Install Dependencies
 mk-build-deps -i -t "apt-get --yes" -r
 
