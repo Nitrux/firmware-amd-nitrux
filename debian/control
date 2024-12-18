@@ -11,4 +11,4 @@ Package: firmware-amd-nitrux
 Architecture: amd64
 Conflicts: firmware-amd-graphics
 Description: Extra firmware for Radeon and AMD devices.
- This package includes newer firmware files for Radeon, AMD graphics cards, and neural processing units.
+ This package includes firmware files for Radeon, AMD graphics cards, and neural processing units.
