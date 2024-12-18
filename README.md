@@ -1,6 +1,6 @@
-# Firmware for Radeon and AMD graphics cards and AI processing units
+# Firmware for Radeon and AMD devices
 
-Package to add newer firmware for amdgpu, amdnpu, radeon and r128 to the distribution.
+Package to add firmware for Radeon and AMD devices.
 
 # Issues
 If you find problems with the contents of this repository please create an issue.
